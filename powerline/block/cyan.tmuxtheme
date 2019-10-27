@@ -25,11 +25,11 @@ set -g status-right-length 150
 set -g status-right "#(node ~/configs/js/music.js 233)"
 
 # Window status
-set -g window-status-format " #I:#W#F "
-set -g window-status-current-format " #I:#W#F "
+set -g window-status-format "█▓▒░#I:#W#F░▒▓█"
+set -g window-status-current-format "█▓▒░#I:#W#F░▒▓█"
 
 # Current window status
-set -g window-status-current-style bg=colour39,fg=colour232
+set -g window-status-current-style bg=colour39,fg=colour233
 
 # Window with activity status
 set -g window-status-activity-style bg=colour233,fg=colour75
